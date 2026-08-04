@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go Out!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div id="page1">
+
+        <h1>😊 Let's Go Out!</h1>
+
+        <p>Hi Sudha 👋</p>
+
+        <p>I was wondering if you'd like to go out this weekend.</p>
+
+        <button id="yesBtn">Let's Go 🎉</button>
+
+        <button id="noBtn">No 😅</button>
+
+        <p id="message"></p>
+
+        <h4>- Teja</h4>
+
+    </div>
+
+    <div id="page2" class="hide">
+
+        <h2>Plan the Day</h2>
+
+        <label>Day</label>
+
+        <select id="day">
+            <option>Friday</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+        </select>
+
+        <label>Time</label>
+
+        <input type="time" id="time">
+
+        <label>Activity</label>
+
+        <select id="activity">
+            <option>Coffee ☕</option>
+            <option>Lunch 🍔</option>
+            <option>Movie 🎬</option>
+            <option>Bowling 🎳</option>
+            <option>Ice Cream 🍦</option>
+            <option>Park 🌳</option>
+        </select>
+
+        <button id="doneBtn">Done</button>
+
+    </div>
+
+    <div id="page3" class="hide">
+
+        <h1>🎉 Awesome!</h1>
+
+        <p id="summary"></p>
+
+        <button onclick="location.reload()">Start Again</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
